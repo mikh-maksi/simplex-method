@@ -1,11 +1,8 @@
-
-$$ 
-    \begin{array}{|c|c|cccccccccccccccc|c|c|}  
 
-    
+
+$$ \begin{array}{|c|c|cccccccccccccccc|c|c|}  
  \hline  
 && \tiny{5} & \tiny{2} & \tiny{0} & \tiny{0} & \tiny{0} \\  
-
  \hline  
  \tiny{C_b}&\tiny{ X_b}&  \tiny{x_{1}}&  \tiny{x_{2}}&  \tiny{x_{3}}&  \tiny{x_{4}}&  \tiny{x_{5}}&\tiny{b_{i}}&\tiny{\phi_{i}}\\   
 
@@ -26,10 +23,13 @@ $$
 
     \end{array}
             
-            $$
-
+            $$
 
-            
+
+
+
+            
+
 $$ 
     \begin{array}{|c|c|cccccccccccccccc|c|c|}  
 
@@ -57,10 +57,13 @@ $$
 
     \end{array}
             
-            $$
-
+            $$
 
-            
+
+
+
+            
+
 $$ 
     \begin{array}{|c|c|cccccccccccccccc|c|c|}  
 
@@ -88,7 +91,10 @@ $$
 
     \end{array}
             
-            $$
-
+            $$
+
+
+
+
 
             
