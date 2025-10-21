@@ -28,7 +28,7 @@ def simplex_out_fnc(file_name,A_ij,b_i,Xbasis_i,c_i,Z_0,delta_i,phi_i,base_i,bas
             else:
                 str_matrix_out += "&\\tiny{"+str(round(A_ij[i][j],2))+"}"
         str_matrix_out+="&\\tiny{"+str(b_i[i][0])+"}&\\tiny{"+str(round(phi_i[i],2))+"}\\\\   \n"
-        str_matrix_out+="\n  \hline  \n"
+        str_matrix_out+="\n\hline\n"
 
     str_last_out = "& "
     for d in delta_i:
@@ -37,23 +37,19 @@ def simplex_out_fnc(file_name,A_ij,b_i,Xbasis_i,c_i,Z_0,delta_i,phi_i,base_i,bas
 
 
     fl = open(f"c:/Work/repo/simplex-method/out/{file_name}.MD", "a+")
-    fl.write('\r\n$$') 
-
-    fl.write(''' 
-    \\begin{array}{|c|c|cccccccccccccccc|c|c|}  \n
-    \n \hline  \n''')
+    fl.write('$$\n') 
+    fl.write('\\begin{array}{|c|c|cccccccccccccccc|c|c|}  \n')
+    fl.write('\n \hline  \n')
 
     fl.write(str_out_ci)
-    fl.write('''\n \hline  \n''')
+    fl.write('''\n\hline  \n''')
     fl.write(str_out_x)
-    fl.write('''\n \hline  \n''')
+    fl.write('''\n\hline  \n''')
     fl.write(str_matrix_out)
     fl.write(str_last_out)
 
     fl.write('''
-    \n  \hline  \n
+    \n\hline  \n
     \end{array}
-            
-            $$\r\n\r\n
-            ''')
+\n$$\n''')
     fl.close()
