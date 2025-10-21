@@ -42,7 +42,8 @@ $$
 
     \end{array}
 
-$$
+$$  
+  
 $$
 \begin{array}{|c|c|cccccccccccccccc|c|c|}  
 
@@ -68,5 +69,4 @@ $$
 \hline  
 
     \end{array}
-
 $$
