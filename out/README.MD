@@ -1,4 +1,5 @@
-$$  \begin{array}{|c|c|cccccccccccccccc|c|c|}
+$$  
+\begin{array}{|c|c|cccccccccccccccc|c|c|}
     \hline
 && \tiny{5} & \tiny{2} & \tiny{0} & \tiny{0} & \tiny{0} \\ 
 \hline 
@@ -51,5 +52,6 @@ $$
 
 
             
+
 
 
