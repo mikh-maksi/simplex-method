@@ -1,5 +1,5 @@
 $$  
-\begin{array}{|c|c|ccccc|c|c|}  
+\begin{array}{|c|c|ccccc|c|c|}   
 \hline  
 &&\tiny{5} &\tiny{2} &\tiny{0} &\tiny{0} &\tiny{0} \\  
 \hline   
