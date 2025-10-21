@@ -1,4 +1,4 @@
-$$
+$$  
 \begin{array}{|c|c|ccccccccc|c|c|}  
 
  \hline  
