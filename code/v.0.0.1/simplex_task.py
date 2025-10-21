@@ -11,7 +11,7 @@ c_i = np.array([5,2,0,0,0])
 Z_0 = 0
 delta_i = [0,0,0,0,0]
 fi_i = [0,0,0,0,0]
-A_ij,b_i,Xbasis_i,c_i = gen_VRP_data(4)
+# A_ij,b_i,Xbasis_i,c_i = gen_VRP_data(4)
 
 # print(A_ij)
 # print(b_i)
@@ -65,7 +65,7 @@ while (check_simplex_next_f(c_i,Xbasis_i,A_ij) and iteration<=max_iteration):
     # --------- matrix recumputing
     # ---------- take base element
     basis_element = A_ij[basis_j][basis_i]
-    simplex_out_fnc("TASK03",A_ij,b_i,Xbasis_i,c_i,Z_0,delta_i,fi_i,basis_j,basis_i)
+    simplex_out_fnc("TASK02",A_ij,b_i,Xbasis_i,c_i,Z_0,delta_i,fi_i,basis_j,basis_i)
     
     # print(f"Prog:{basis_j} {basis_i}, Math: {basis_j+1} {basis_i+1} {basis_element}")
     # ---------- Base string
@@ -136,9 +136,8 @@ for i in range(len(A_ij[0])):
     delta_i.append(float(Z_i[i]-c_i[i]))
 print(f"delta_i = {delta_i}")
 fi_i=[0,0,0,0,0]
-simplex_out_fnc("TASK03",A_ij,b_i,Xbasis_i,c_i,Z_0,delta_i,fi_i,-1,-1)
+simplex_out_fnc("TASK02",A_ij,b_i,Xbasis_i,c_i,Z_0,delta_i,fi_i,-1,-1)
 
-print(len(A_ij[0]))
 # print(Xbasis_i)
 
 # print(basis_j)

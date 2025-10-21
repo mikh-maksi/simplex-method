@@ -38,11 +38,8 @@ def simplex_out_fnc(file_name,A_ij,b_i,Xbasis_i,c_i,Z_0,delta_i,phi_i,base_i,bas
 
     fl = open(f"c:/Work/repo/simplex-method/out/{file_name}.MD", "a+")
     fl.write('$$  \n') 
-    str_c=""
-    for i in range(len(A_ij[0])):
-        str_c+="c"
-    fl.write("\\begin{array}{|c|c|"+str_c+"|c|c|}\n")
-    fl.write('\hline')
+    fl.write('\\begin{array}{|c|c|ccccc|c|c|}  \n')
+    fl.write('\hline  \n')
 
     fl.write(str_out_ci)
     fl.write('''\hline   \n''')
