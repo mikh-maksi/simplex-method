@@ -32,6 +32,7 @@ def simplex_out_fnc(file_name,A_ij,b_i,Cbasis_i,Xbasis_i,c_i,Z_0,delta_i,phi_i,b
                 str_matrix_out += "&\\boxed{\\tiny{"+str(round(A_ij[i][j],2))+"}}"
             else:
                 str_matrix_out += "&\\tiny{"+str(round(A_ij[i][j],2))+"}"
+        # str_matrix_out+="&\\tiny{"+str(b_i[i][0])+"}&\\tiny{"+str(round(phi_i[i],2))+"}\\\\   \n"
         str_matrix_out+="&\\tiny{"+str(b_i[i][0])+"}&\\tiny{"+str(round(phi_i[i],2))+"}\\\\   \n"
         str_matrix_out+="\hline  \n"
 

@@ -10,6 +10,8 @@ A_ij = A2At(A_ij)
 c_i = b2c(b_i)
 b_i = c2b(c_i)
 
-A_ij,c_i,Xbasis_i,Z_0,delta_i,fi_i=add_artif_basis(A_ij,c_i)
+print(b_i)
 
-print(A_ij,c_i,Xbasis_i,Z_0,delta_i,fi_i)
+# A_ij,c_i,Xbasis_i,Z_0,delta_i,fi_i=add_artif_basis(A_ij,c_i)
+
+# print(A_ij,c_i,Xbasis_i,Z_0,delta_i,fi_i)

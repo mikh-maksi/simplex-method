@@ -160,16 +160,18 @@ def A2At(A_ij):
     return A_ij.transpose()
 
 def b2c(b_i):
-    c_out = np.array([],dtype=int)
+    c_out = np.array([],dtype=float)
     for el in b_i:
         c_out=np.append(c_out,el[0])
     return c_out
 
 def c2b(c_i):
-    b_out = np.array([],dtype=int)
+    # b_out = np.array([],dtype=float)
+    b_out = []
     for el in c_i:
-        b_out=np.append(b_out,[el])
-    return b_out
+        b_out.append([el])
+    b_out_np = np.array(b_out,dtype=float)
+    return b_out_np
 
 def list_null(n):
     out_arr = []
